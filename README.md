@@ -8,6 +8,10 @@ Write your name on line 6, save it, and then head back to GitHub Desktop.
 
 - a project for people that like only :watermelon: and :grapes:
 - yes, this is a _readme_ file
+- no
+
 
 ## what can I put here
 the `emoji-cheat-sheet` is [here](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md)
+
+- no
