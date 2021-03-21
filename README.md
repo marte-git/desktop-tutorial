@@ -31,7 +31,7 @@ function fancyAlert(arg) {
 }
 ```
 
-```
+```c
 /* n dimensione array, v valore intero */
 int eser (int arr[], int n, int v) {
   int i, dist, distMin, indMin=0;
