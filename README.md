@@ -24,7 +24,7 @@ quotation:
 
 codice:
 si mette tra singole ` virgolette
-`<p style="display: none">` non appare
+`<nome_elemento>` solo questo
 
 ```javascript
 function fancyAlert(arg) {
@@ -35,9 +35,10 @@ function fancyAlert(arg) {
 ```
 
 You can also simply indent your code by four spaces:
-
+``
     function fancyAlert(arg) {
       if(arg) {
         $.facebox({div:'#foo'})
       }
     }
+``
