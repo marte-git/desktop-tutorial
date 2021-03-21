@@ -22,15 +22,6 @@ quotation:
 > > d'autunno
 > > 
 
-
-```javascript
-function fancyAlert(arg) {
-  if(arg) {
-    $.facebox({div:'#foo'})
-  }
-}
-```
-
 ```c
 /* n dimensione array, v valore intero */
 int eser (int arr[], int n, int v) {
