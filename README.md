@@ -22,9 +22,6 @@ quotation:
 > > d'autunno
 > > 
 
-codice:
-si mette tra singole ` virgolette
-`<nome_elemento>` solo questo
 
 ```javascript
 function fancyAlert(arg) {
@@ -34,11 +31,19 @@ function fancyAlert(arg) {
 }
 ```
 
-You can also simply indent your code by four spaces:
-``
-    function fancyAlert(arg) {
-      if(arg) {
-        $.facebox({div:'#foo'})
-      }
-    }
-``
+```
+/* n dimensione array, v valore intero */
+int eser (int arr[], int n, int v) {
+  int i, dist, distMin, indMin=0;
+
+  distMin = (arr[0]<v) ? v-arr[0] : arr[0]-v;
+  for(i=1; i<n; i++) {
+     dist = (arr[i]<v) ? v-arr[i] : arr[i]-v;
+     if (dist<distMin) {
+        distMin = dist;
+        indMin=i;
+     }
+  }
+return indMin;
+}
+```
