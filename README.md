@@ -23,5 +23,21 @@ quotation:
 > > 
 
 codice:
-I think you should use an
-`<addr>` element here instead.
+si mette tra singole ` virgolette
+`<p style="display: none">` non appare
+
+```javascript
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+```
+
+You can also simply indent your code by four spaces:
+
+    function fancyAlert(arg) {
+      if(arg) {
+        $.facebox({div:'#foo'})
+      }
+    }
